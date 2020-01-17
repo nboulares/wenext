@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>WeNext - Coming soon</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i"
+    rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/coming-soon.min.css" rel="stylesheet">
+  <style>
+    #newsletterform {
+      display: none;
+      position: fixed;
+      z-index: 99;
+      background: rgba(255, 255, 255, 0.8);
+      width: 100%;
+      height: 100%;
+      top: 0px;
+      left: 0px;
+    }
+
+    #newsletterform .newsletterctn {
+      width: 50%;
+      margin: 100px auto;
+      background: #FFF;
+    }
+  </style>
+  <script>
+  </script>
+</head>
+
+<body>
+
+  <div class="overlay"></div>
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="mp4/bg.mp4" type="video/mp4">
+  </video>
+
+  <div class="masthead">
+    <div class="masthead-bg"></div>
+    <div class="container h-100">
+      <div class="row h-100">
+        <div class="col-12 my-auto">
+          <div class="masthead-content text-white py-5 py-md-0 ">
+            <div class="text-center">
+              <img src="img/logo-transparent.png" width="250" alt="WeNext">
+            </div>
+            <h1 class="mb-3">Coming Soon!</h1>
+            <p class="mb-5">You are looking to expand your carrier and join international firms to be part of highly
+              innovative projects (Digital, Blockchain, AI, ...)
+              <br />
+              <strong>“Join the Next Experience”</strong></p>
+            <div class="input-group input-group-newsletter">
+              <button class="btn btn-secondary" id="notifyme" type="button">Notify Me!</button>
+              <!-- <input type="email" class="form-control" placeholder="Enter email..." aria-label="Enter email..." aria-describedby="basic-addon">
+              <div class="input-group-append">
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="newsletterform">
+    <div class="newsletterctn">
+      <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+      <script>
+        hbspt.forms.create({
+          portalId: "5056029",
+          formId: "3b68db16-3838-410b-b3db-cabbcce9d367"
+        });
+      </script>
+    </div>
+  </div>
+
+  <div class="social-icons">
+    <ul class="list-unstyled text-center mb-0">
+      <li class="list-unstyled-item">
+        <a href="#">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      <li class="list-unstyled-item">
+        <a href="#">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+      <li class="list-unstyled-item">
+        <a href="#">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/coming-soon.min.js"></script>
+  <script>
+    $("#notifyme").click(function () {
+      $("#newsletterform").show();
+    })
+  </script>
+</body>
+
+</html>
